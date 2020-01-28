@@ -2,6 +2,6 @@ version: '3'
 services:
   gremlin-server-python:
     container_name: gremlin-server-python
-    image: 'goblinogm/gremlin-server-python:latest'
+    image: 'goblinogm/gremlin-server-python:3.4.4'
     build:
       context: .
